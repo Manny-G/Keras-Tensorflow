@@ -2,7 +2,7 @@
 
 A revisit to the work done by [*François Chollet*](https://github.com/fchollet/deep-learning-with-python-notebooks) in 2017. 
 This project including modifications for running on Windows, changes in Keras 2.2.2 that challenge the original assumptions about 
-freezing pre-trained layers, and a general exploration of the topics.
+freezing pre-trained layers, and a general exploration of the topics. Note that the hyperlinking works on the Jupyter platform only.
 
 The full dependency list for the Python 3.6.5 venv used includes:
 
@@ -18,6 +18,7 @@ The full dependency list for the Python 3.6.5 venv used includes:
 | decorator | 4.3.0 |
 | entrypoints | 0.2.3 |
 | gast | 0.2.0 |
+| graphviz | 0.9 |
 | grpcio | 1.14.0 |
 | h5py | 2.8.0 |
 | html5lib | 1.0.1 |
@@ -52,6 +53,8 @@ The full dependency list for the Python 3.6.5 venv used includes:
 | prometheus-client | 0.3.1 |
 | prompt-toolkit | 1.0.15 |
 | protobuf | 3.6.0 |
+| pydot | 1.2.4 |
+| pydot-ng | 1.0.0 |
 | Pygments | 2.2.0 |
 | pyparsing | 2.2.0 |
 | python-dateutil | 2.7.3 |
